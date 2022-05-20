@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16157 MB
+OS: 'Windows 10  (10.0.19044) 64bit ProfessionalN' Language: 'en' Physical Memory: 16322 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,23 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-C:/Users/Max/TowerGamer/TowerDefenseGaming
-========
 C:/Users/Austin/TowerGamer/TowerDefenseGaming
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-65492
-Successfully changed project path to: C:/Users/Max/TowerGamer/TowerDefenseGaming
-C:/Users/Max/TowerGamer/TowerDefenseGaming
-========
-56776
+52046
 Successfully changed project path to: C:/Users/Austin/TowerGamer/TowerDefenseGaming
 C:/Users/Austin/TowerGamer/TowerDefenseGaming
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -57,194 +47,108 @@ C:/Users/Austin/TowerGamer/TowerDefenseGaming
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-Refreshing native plugins compatible for Editor in 94.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Max/TowerGamer/TowerDefenseGaming/Assets
-========
-Refreshing native plugins compatible for Editor in 85.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Austin/TowerGamer/TowerDefenseGaming/Assets
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
-    Vendor:   ATI
-    VRAM:     12243 MB
-    Driver:   30.0.13023.4001
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   30.0.14.9709
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
-========
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-Registered in 0.007600 seconds.
+Registered in 0.011801 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 121.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.737 seconds
+- Completed reload, in  0.875 seconds
 Domain Reload Profiling:
-	ReloadAssembly (737ms)
-		BeginReloadAssembly (81ms)
-========
-Registered in 0.008227 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
-Domain Reload Profiling:
-	ReloadAssembly (637ms)
-		BeginReloadAssembly (74ms)
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
+	ReloadAssembly (875ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-		EndReloadAssembly (540ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (108ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (350ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (378ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-========
-		EndReloadAssembly (450ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-Registered in 0.006075 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Max\TowerGamer\TowerDefenseGaming\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Max\TowerGamer\TowerDefenseGaming\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1053ms)
-		BeginReloadAssembly (105ms)
-========
-Registered in 0.005754 seconds.
+Registered in 0.010719 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Austin\TowerGamer\TowerDefenseGaming\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Austin\TowerGamer\TowerDefenseGaming\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.176 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (107ms)
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-		EndReloadAssembly (825ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (309ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (386ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (419ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (7ms)
-========
-		EndReloadAssembly (807ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (376ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (8ms)
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (112.1 KB). Loaded Objects now: 3817.
-Memory consumption went from 116.0 MB to 115.9 MB.
-Total: 2.355900 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.071400 ms MarkObjects: 1.870100 ms  DeleteObjects: 0.081900 ms)
-========
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (112.2 KB). Loaded Objects now: 3817.
-Memory consumption went from 115.7 MB to 115.6 MB.
-Total: 3.763800 ms (FindLiveObjects: 0.347400 ms CreateObjectMapping: 0.241700 ms MarkObjects: 3.057900 ms  DeleteObjects: 0.115100 ms)
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
+Unloading 24 unused Assets / (55.6 KB). Loaded Objects now: 3819.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 3.396600 ms (FindLiveObjects: 0.406100 ms CreateObjectMapping: 0.356600 ms MarkObjects: 2.534800 ms  DeleteObjects: 0.097100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -258,36 +162,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<<< HEAD:TowerDefenseGaming/Logs/AssetImportWorker1.log
-  Time since last request: 463860.278887 seconds.
-  path: Assets/START.prefab
-  artifactKey: Guid(b7aca4b2c07ccd64e932270010458650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/START.prefab using Guid(b7aca4b2c07ccd64e932270010458650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bdddf62dcd22c49467748740676876') in 0.126788 seconds 
+  Time since last request: 182229.495283 seconds.
+  path: Assets/PreFabs/END.prefab
+  artifactKey: Guid(d719aaf6084d8544da25fd9273faab87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs/END.prefab using Guid(d719aaf6084d8544da25fd9273faab87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49441a8468e92f2793f140b5c0d2167a') in 0.343367 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/New Material 2.mat
-  artifactKey: Guid(86a86929407ba1a4b9eccaace9564f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material 2.mat using Guid(86a86929407ba1a4b9eccaace9564f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b20b3a1733c31c5ca38297c7346ec82') in 0.035773 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
-========
-  Time since last request: 181344.602151 seconds.
-  path: Assets/WayPoint.prefab
-  artifactKey: Guid(cfc4f4625198f524eb7436cd5c5f1f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WayPoint.prefab using Guid(cfc4f4625198f524eb7436cd5c5f1f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b90a7a95a3b3a385b61c4ea3e70dcc5') in 0.050481 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(55547bd6f47bd8a4b927615b28f03927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(55547bd6f47bd8a4b927615b28f03927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a518cbb4b9a01ab4dbed87e677e276a1') in 0.005992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.649043 seconds.
-  path: Assets/PreFabs
-  artifactKey: Guid(ab45a96bc4025e14cbdf7c81fdacd3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFabs using Guid(ab45a96bc4025e14cbdf7c81fdacd3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77107aaf3b0328657b5ab957f2f48cbe') in 0.007028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.331529 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(9ceeca966be82de409c548de8e7efecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(9ceeca966be82de409c548de8e7efecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72490627153b53bf1fa833e9465f19d') in 0.006264 seconds 
->>>>>>>> 09da6c9c2d9bafa0485f6c7510d53999502ee979:TowerDefenseGaming/Logs/AssetImportWorker2.log
+  Time since last request: 0.000052 seconds.
+  path: Assets/PreFabs/Node.prefab
+  artifactKey: Guid(832095aaf3970024abf3b7fd23c04153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs/Node.prefab using Guid(832095aaf3970024abf3b7fd23c04153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc62dc7a769071ca98e71faaa90b5fbf') in 0.093783 seconds 
