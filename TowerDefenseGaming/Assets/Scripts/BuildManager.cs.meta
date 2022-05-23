@@ -1,12 +1,10 @@
 fileFormatVersion: 2
-guid: 97a2b56e0ec191e40956bb916947e6a1
+guid: fbd112a0922da1648892af5474350787
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - partToRotate: {instanceID: 0}
-  - bulletPrefab: {fileID: 5723100163767067019, guid: 08834c37091bf0c42944f9a265cf5600, type: 3}
-  - firePoint: {instanceID: 0}
+  - standardTurretPrefab: {fileID: 3940448261779893879, guid: ad2dfab26638aac4a8f07d360c35f532, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

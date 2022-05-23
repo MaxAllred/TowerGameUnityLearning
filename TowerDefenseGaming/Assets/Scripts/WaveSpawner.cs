@@ -12,10 +12,10 @@ public class WaveSpawner : MonoBehaviour
 	private float countdown = 10f;
 	private int waveNumber = 1;
 
-	
-	public Text waveCountdownText;
 
-	void Update()
+    public Text waveCountdownText;
+
+    void Update()
 	{
 		if(countdown <= 0)
 		{

@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
         target = _target;
     }
 
-
+    
     void Update()
     {
         if (target == null)
